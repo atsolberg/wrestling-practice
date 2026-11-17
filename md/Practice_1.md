@@ -1,16 +1,18 @@
 _Osseo Practice Plans - 2026/2027_
 
-# Nov 23 - Practice #1
+# Practice #1 - Monday Nov 23 
 
-#### 3:00-3:20 Warmup Game: One-life or Dodgeball **(20 min)**
+#### 3:00-3:20 Warmup Game: One-life or Dodgeball (20 min)
 
-#### 3:20-3:30 Advanced Tumbling **(10 min)**
+#### 3:20-3:30 Advanced Tumbling (10 min)
   - Run in a circle and do the tumbling drill on one long side
-    - Shot-stop
+    - Forward Somersault
+    - Superman roll
+    - Backward Somersault
     - Cartwheels
-    - Forward roll
-    - Back roll
-    - ect
+    - Roundoffs
+    - Duck-walk
+    - Shot-stop
 
 #### 3:30-3:40 Stretching (10 min)
 
@@ -36,15 +38,16 @@ _Osseo Practice Plans - 2026/2027_
   - **Level Change!!** 
   - Clear hands
   - and penetrate
-  - Right knee inside
-  - Drag leg steps up
-  - Drive to finish
-  - **Always** land on top
+  - Step inside
+  - Head outside
+  - Trail leg steps up
+  - Drive to finish sideways
+  - **Always** land on top, not parallel
 
 #### 4:05-4:15 - DRILL Practice double leg (10 min)
   - **GO SLOW** - focus on perfect execution
 
-#### 5 MINUTE BREAK
+#### 5 MINUTE WATER BREAK
 
 #### 4:20-4:25 - Show Move (Double Leg Defense) (5 min)
   - Sprawl, hips in, laces to the mat, stuff head
@@ -54,19 +57,28 @@ _Osseo Practice Plans - 2026/2027_
 #### 4:25-4:35 - DRILL Practice double leg defense (10 min) 
   - **GO SLOW** - focus on perfect execution
 
-#### 4:35-4:45 - Talk (10 min)
-  - Starting a match - Aggressive and attack Mentality
-  - Scoring first - Importance of the takedown
-  - Be active not reactive
-  - OWN the middle
-  - Control and move your opponent
-  - Push the pace
+#### 4:35-4:40 - Talk (5 min)
+  - Address mistakes kids are making with technique
 
-#### 4:45-5:00 DRILL - 30s Live Go (15 min)
+#### 4:40-4:50 LIVE - 30s Live Go (10 min)
   - Wrestler A starts with double leg, Wrestler B defends
   - USE GROUPS OF 3 IF NOT ENOUGH MAT SPACE!
+  - If groups of 3:
+    - [ ] 1 & 2
+    - [ ] 1 & 2
+    - [ ] 1 & 3
+    - [ ] 1 & 3
+    - [ ] 2 & 1
+    - [ ] 2 & 3
+    - [ ] 2 & 1
+    - [ ] 2 & 3
+    - [ ] 3 & 1
+    - [ ] 3 & 2
+    - [ ] 3 & 1
+    - [ ] 3 & 2
+  - On coaches whistle
 
-#### 5:00-5:10 Dodgeball or Conditioning (10 min)
+#### 4:50-5:00 Conditioning (10 min)
   - 30 second drills
   - Team push-up and holds
   - Partner sit-ups
@@ -75,8 +87,13 @@ _Osseo Practice Plans - 2026/2027_
   - Extended leg holds
   - WWKD? (What would Kenny do)
 
-#### 5:10-5:15 Post-practice Coach Talk (5 min)
+#### 5:00-5:10 Game (One-life) (10 min)
+  - Coach Aaron explains one-life
+
+#### 5:10-5:15 Post-practice Coach Andy Talk (5 min)
   - Weight certs reminder
-  - Showering
-  - Gear for newer kids
+  - Showering reminder
+  - Cubby reminder
+  - Water reminder, bottles in room, 
+    - do not leave room! BRING YOUR BOTTLE!
   - ect.
