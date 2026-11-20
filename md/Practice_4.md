@@ -1,6 +1,6 @@
 _Osseo Practice Plans - 2026/2027_
 
-# Practice #3 - Friday Nov 27 - Optional practice 9:00am to 11:30am
+# Practice #4 - Friday Nov 27 - Optional practice 9:00am to 11:30am
 - Since it's an optional practice, not introducing new material
 
 #### 9:00am-9:20 Warmup Game: One-life or Dodgeball (20 min)
@@ -13,7 +13,7 @@ _Osseo Practice Plans - 2026/2027_
     - Cartwheels
     - Roundoffs
     - Duck-walk
-    - Shot-stop
+    - Shot-step
 
 #### 9:30-9:40 Stretching (10 min)
 

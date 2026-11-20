@@ -8,7 +8,7 @@ _Osseo Practice Plans - 2026/2027_
 
 #### 3:40-3:50 Advanced Tumbling **(10 min)**
   - Run in a circle and do the tumbling drill on one long side
-    - Shot-stop
+    - Shot-step
     - Cartwheels
     - Forward roll
     - Back roll
