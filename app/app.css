@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+/* Theme is driven by a `.dark` class on <html> (set from the toggle / system). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  /* Osseo orange: one hue, tuned to read well on both white and near-black. */
+  --color-primary: #ea580c;
+
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+}
+
+:root {
+  --bg: #fafaf9;
+  --surface: #ffffff;
+  --fg: #1c1917;
+  --muted: #78716c;
+  --line: #e7e5e4;
+}
+
+:root.dark {
+  --bg: #0a0a0a;
+  --surface: #141414;
+  --fg: #f5f5f4;
+  --muted: #a3a3a3;
+  --line: #262626;
+}
+
+html,
+body {
+  @apply bg-bg text-fg antialiased;
+}
+
+::selection {
+  @apply bg-primary text-white;
+}
+
+/* ---------- Agenda (rendered markdown) ---------- */
+
+.agenda {
+  @apply leading-relaxed text-fg;
+
+  /* "_Osseo Practice Plans - 2026/2027_" eyebrow line */
+  & > p:first-child em {
+    @apply text-sm font-semibold tracking-wide text-primary uppercase not-italic;
+  }
+
+  & h1 {
+    @apply mt-1 mb-6 text-2xl font-black tracking-tight sm:text-3xl;
+  }
+
+  & h2,
+  & h3 {
+    @apply mt-8 mb-3 text-xl font-bold;
+  }
+
+  & p {
+    @apply my-3;
+  }
+
+  & strong {
+    @apply font-bold text-primary;
+  }
+
+  & a {
+    @apply font-semibold text-primary underline underline-offset-2;
+  }
+
+  & ul {
+    @apply my-2 list-disc space-y-1 pl-5 marker:text-primary;
+  }
+
+  & ul ul {
+    @apply mt-1 mb-0 list-[circle];
+  }
+
+  & ul ul ul {
+    @apply list-[square];
+  }
+
+  & ol {
+    @apply my-2 list-decimal space-y-1 pl-5 marker:text-primary;
+  }
+
+  /* Time blocks */
+  & .agenda-block {
+    @apply mt-8 mb-2 flex flex-wrap items-baseline gap-x-3 gap-y-1 border-l-4 border-primary pl-3 text-lg font-bold;
+  }
+
+  & .agenda-time {
+    @apply rounded-md bg-primary px-2 py-0.5 font-mono text-sm font-bold whitespace-nowrap text-white tabular-nums;
+  }
+
+  & .agenda-break {
+    @apply rounded-r-lg border-l-sky-500 bg-sky-500/10 py-2 text-sky-700 dark:text-sky-300;
+  }
+
+  /* Clickable checklist rows */
+  & ul:has(> .task-item) {
+    @apply list-none pl-0;
+  }
+
+  & .task-item label {
+    @apply -mx-2 flex cursor-pointer items-center gap-3 rounded-md px-2 py-1 select-none hover:bg-primary/8;
+  }
+
+  & .task-item input[type="checkbox"] {
+    @apply size-5 shrink-0 cursor-pointer accent-primary;
+  }
+
+  & .task-item label:has(input:checked) {
+    @apply text-muted line-through decoration-primary/60;
+  }
+}
