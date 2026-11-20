@@ -47,18 +47,20 @@ export function ThemeToggle() {
       onClick={() => setPref(next)}
       title={`Theme: ${LABEL[pref]} (click for ${LABEL[next]})`}
       aria-label={`Theme: ${LABEL[pref]}. Switch to ${LABEL[next]}.`}
-      className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1.5 text-sm font-medium text-fg transition-colors hover:border-primary hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+      className="grid size-10 place-items-center rounded-full border border-line bg-surface text-fg transition-colors hover:border-primary hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
     >
-      <Icon pref={pref} />
-      <span className={mounted ? "" : "invisible"}>{LABEL[pref]}</span>
+      {/* Hidden until mounted so a saved Light/Dark pref doesn't flash the System icon */}
+      <span className={mounted ? "" : "invisible"}>
+        <Icon pref={pref} />
+      </span>
     </button>
   );
 }
 
 function Icon({ pref }: { pref: ThemePref }) {
   const common = {
-    width: 16,
-    height: 16,
+    width: 18,
+    height: 18,
     viewBox: "0 0 24 24",
     fill: "none",
     stroke: "currentColor",
