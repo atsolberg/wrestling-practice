@@ -12,7 +12,7 @@ _Osseo Practice Plans - 2026/2027_
     - Cartwheels
     - Roundoffs
     - Duck-walk
-    - Shot-stop
+    - Shot-step
 
 #### 3:30-3:40 Stretching (10 min)
 
