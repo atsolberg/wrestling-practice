@@ -14,7 +14,8 @@ import { themeInitScript } from "~/lib/theme";
 import "./app.css";
 
 export const links: Route.LinksFunction = () => [
-  { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
+  { rel: "icon", href: "/osseologo.png", type: "image/png" },
+  { rel: "apple-touch-icon", href: "/osseologo.png" },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -32,8 +33,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <header className="sticky top-0 z-10 border-b border-line bg-bg/85 backdrop-blur">
           <div className="mx-auto flex max-w-3xl items-center justify-between gap-4 px-4 py-3">
             <Link to="/" className="group flex items-center gap-2.5">
-              <span className="grid size-8 place-items-center rounded-lg bg-primary text-lg font-black text-white">
-                O
+              <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-white ring-1 ring-line">
+                <img
+                  src="/osseologo.png"
+                  alt=""
+                  width={44}
+                  height={44}
+                  className="size-11"
+                />
               </span>
               <span className="leading-tight">
                 <span className="block font-bold tracking-tight text-fg group-hover:text-primary">
